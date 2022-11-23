@@ -1,5 +1,3 @@
 
 #!/bin/bash
-yum groupinstall -y "Web Server" "MySQL Database" "PHP Support"
-yum install -y php-mysql
-yum install -y httpd
+if ! [ -x "$(command -v httpd)" ]; then yum install -y httpd24 >&2;   exit 1; fi # install apache if not already installed
