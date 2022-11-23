@@ -1,0 +1,8 @@
+name: Ask Daaji Block
+description: A simple module to Ask Daaji Block.
+core_version_requirement: ^8.8 || ^9
+package: Custom
+dependencies:
+- node
+- block
+type: module

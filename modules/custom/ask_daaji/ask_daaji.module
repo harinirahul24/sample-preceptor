@@ -1,0 +1,32 @@
+<?php
+/**
+ * @file
+ * Code for the Ask Daaji module.
+ */
+use Drupal\Core\Form\FormStateInterface;
+use Drupal\Core\Routing\RouteMatchInterface;
+use Drupal\Core\Database\Database;
+use Drupal\Core\Ajax\HtmlCommand;
+
+/*
+
+function ask_daaji_form_alter(&$form, FormStateInterface $form_state, $form_id) {
+    if($form_id == 'question_form'){
+           
+            $tag_terms = \Drupal::entityManager()->getStorage('taxonomy_term')->loadTree('ask_daaji_type');
+            $tags = array();
+            $tags[0] = '-- None --';
+            foreach ($tag_terms as $tag_term) {
+                $tags[$tag_term->tid] = $tag_term->name;
+            }
+
+            $form['category_id'] = array(
+            '#type' => 'select',
+            '#options' => $tags,
+            '#default_value' => '',
+            '#required' => TRUE,
+            );
+    }
+}
+*/
+?>

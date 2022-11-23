@@ -1,0 +1,1 @@
+window.drupalTranslations = {"strings":{"":{"Show":"\u663e\u793a","Save":"\u4fdd\u5b58"}},"pluralFormula":{"1":0,"default":1}};

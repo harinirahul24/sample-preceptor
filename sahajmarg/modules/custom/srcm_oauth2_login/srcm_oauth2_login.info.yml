@@ -1,0 +1,5 @@
+name: srcm oauth2 login
+type: module
+description: SRCM Oauth2 login
+core_version_requirement: ^8.8 || ^9
+package: Custom

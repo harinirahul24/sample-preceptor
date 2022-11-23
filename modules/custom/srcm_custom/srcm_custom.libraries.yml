@@ -1,0 +1,10 @@
+state_city_filter:
+  css:
+    theme:
+      css/sahajmarg.css: {}
+  js:
+    js/sahajmarg.js: { scope: header }
+  dependencies:
+    - core/jquery
+    - core/drupal
+    - core/drupalSettings

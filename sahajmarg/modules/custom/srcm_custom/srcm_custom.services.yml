@@ -1,0 +1,6 @@
+services:
+  srcm_custom.event_subscriber:
+    class: Drupal\srcm_custom\EventSubscriber\RedirectAnonymousSubscriber
+    arguments: []
+    tags:
+      - {name: event_subscriber}

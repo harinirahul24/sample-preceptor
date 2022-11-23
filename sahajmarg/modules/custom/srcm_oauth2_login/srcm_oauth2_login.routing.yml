@@ -1,0 +1,10 @@
+
+srcm_oauth2_login.oauth2_catch_controller_oauth2_redirect_call:
+  path: '/openid-connect/generic'
+  defaults:
+    _controller: '\Drupal\srcm_oauth2_login\Controller\Oauth2CatchController::oauth2_redirect_call'
+    _title: 'Oauth2 redirect call'
+  requirements:
+    _permission: 'access content'
+
+    

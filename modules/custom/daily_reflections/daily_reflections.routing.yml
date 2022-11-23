@@ -1,0 +1,8 @@
+
+daily_reflections.daily_reflections_controller_obt_archive:
+  path: '/one-beautiful-thought/{year}/{month}'
+  defaults:
+    _controller: '\Drupal\daily_reflections\Controller\DailyReflectionsController::obt_archive'
+    _title_callback: '\Drupal\daily_reflections\Controller\DailyReflectionsController::getTitle'
+  requirements:
+    _permission: 'access content'

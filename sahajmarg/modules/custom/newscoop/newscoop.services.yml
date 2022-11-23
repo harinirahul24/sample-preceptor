@@ -1,0 +1,6 @@
+services:
+  newscoop.twig_extension:
+    arguments: ['@renderer']
+    class: Drupal\newscoop\TwigExtension\JsonDecode
+    tags:
+      - { name: twig.extension }

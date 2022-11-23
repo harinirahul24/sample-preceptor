@@ -1,0 +1,57 @@
+
+srcm_custom.oauth2endpoint_form:
+  path: '/admin/sahajmarg/oauth2endpoint'
+  defaults:
+    _form: '\Drupal\srcm_custom\Form\Oauth2endpointForm'
+    _title: 'Oauth2endpointForm'
+  requirements:
+    _permission: 'access administration pages'
+  options:
+    _admin_route: TRUE
+
+srcm_custom.state_city_filter:
+  path: '/get_state_city/{country_state}/{id}'
+  defaults:
+    _controller: '\Drupal\srcm_custom\Controller\StateCityFilter::state_city_filter'
+  requirements:
+    _permission: 'access content'
+
+srcm_custom.site_configurables:
+  path: '/admin/sahajmarg/site-configurables'
+  defaults:
+    _form: '\Drupal\srcm_custom\Form\SiteConfigurables'
+    _title: 'SiteConfigurables'
+  requirements:
+    _permission: 'access administration pages'
+  options:
+    _admin_route: TRUE
+
+srcm_custom.admin_sahajmarg:
+  path: '/admin/sahajmarg'
+  defaults:
+    _controller: '\Drupal\system\Controller\SystemController::systemAdminMenuBlockPage'
+    _title: 'SahajMarg'
+  requirements:
+    _permission: 'access administration pages'
+
+srcm_custom.logouturl_form:
+  path: '/admin/sahajmarg/logouturl'
+  defaults:
+    _form: '\Drupal\srcm_custom\Form\LogoutUrlForm'
+    _title: 'Logout Url'
+  requirements:
+    _permission: 'access administration pages'
+  options:
+    _admin_route: TRUE 
+    
+srcm_custom.email_form:
+  path: '/admin/sahajmarg/email'
+  defaults:
+    _form: '\Drupal\srcm_custom\Form\EmailForm'
+    _title: 'Email'
+  requirements:
+    _permission: 'access administration pages'
+  options:
+    _admin_route: TRUE     
+
+  

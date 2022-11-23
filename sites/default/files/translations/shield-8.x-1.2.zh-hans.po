@@ -1,0 +1,26 @@
+# Chinese, Simplified translation of Shield (8.x-1.2)
+# Copyright (c) 2018 by the Chinese, Simplified translation team
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Shield (8.x-1.2)\n"
+"POT-Creation-Date: 2018-02-23 00:45+0000\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Language-Team: Chinese, Simplified\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+msgid "Username"
+msgstr "用户名"
+msgid "Administration"
+msgstr "管理"
+msgid "Password"
+msgstr "密码"
+msgid "General settings"
+msgstr "常规设置"
+msgid "User"
+msgstr "用户"
+msgid "Credentials"
+msgstr "证书"

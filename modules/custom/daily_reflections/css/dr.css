@@ -1,0 +1,111 @@
+ul.months-ul {
+    list-style: none;
+    display: block;
+}
+.months-ul li {
+    display: inline-block;
+    padding: 1px;
+    margin: 10px auto;
+}
+.months-ul a.active.is_active, .years-ul a.active.is_active {
+    background-color: #ababab;
+}
+.months-ul li a, .years-ul li a {
+    padding: 10px;
+}
+ul.years-ul {
+    list-style: none;
+}
+.dr-item .dr-title {
+	margin: 0;
+  padding: 0;
+}
+.dr-item .dr-display-date {
+	font-size: 14px;
+}
+.dr-item .dr-item-content {
+	
+}
+.dr-item {
+  width: 100%;
+}
+.dr-item .dr-footnote {
+	font-size: 16px;
+  font-style: italic;
+}
+ul.years-ul li {
+    margin: 10px auto;
+}
+/*.dr-content-wrapper .row {
+    padding: 10px;
+    text-align: center;
+    margin: 10px auto;
+}
+*/
+.obt-day-monday{background: url(//cdn-prod.heartfulness.org/hfn/newsletters/obt/one-beautiful-thought-monday.png) 50%;    background-size: cover;   background-repeat: no-repeat;}
+.obt-day-tuesday{background: url(//cdn-prod.heartfulness.org/hfn/newsletters/obt/one-beautiful-thought-tuesday.png) 50%;    background-size: cover;   background-repeat: no-repeat;}
+.obt-day-wednesday{background: url(//cdn-prod.heartfulness.org/hfn/newsletters/obt/one-beautiful-thought-wednesday.png) 50%;    background-size: cover;   background-repeat: no-repeat;}
+.obt-day-thursday{background: url(//cdn-prod.heartfulness.org/hfn/newsletters/obt/one-beautiful-thought-thursday.png) 50%;    background-size: cover;   background-repeat: no-repeat;}
+.obt-day-friday{background: url(//cdn-prod.heartfulness.org/hfn/newsletters/obt/one-beautiful-thought-friday.png) 50%;    background-size: cover;   background-repeat: no-repeat;}
+.obt-day-saturday{background: url(//cdn-prod.heartfulness.org/hfn/newsletters/obt/one-beautiful-thought-saturday.png) 50%;    background-size: cover;   background-repeat: no-repeat;}
+.obt-day-sunday{background: url(//cdn-prod.heartfulness.org/hfn/newsletters/obt/one-beautiful-thought-sunday.png) 50%;    background-size: cover;   background-repeat: no-repeat;}
+
+.obt-logo-wrapper img {
+    width: 68px;
+}
+.obt-logo-wrapper {
+    text-align: center;
+}
+.dr-footnote {
+    font-family: gotham-medium;
+    font-size: 18px;
+    font-style: italic;
+    margin-top: 10px;
+    color: #1d9ff2;
+}
+p.dr-display-date {
+    font-family: gotham-book;
+    font-size: 13px;
+    margin-top: 15px;
+    text-align: center;
+    /*color: #797979;*/
+}
+.dr-item .dr-item-content p {
+    font-family: gotham-book;
+    color: #000;
+    font-size: 18px;
+    line-height: 28px;
+}
+.obt-items-box { box-shadow: 1px 1px 10px #bbb; padding: 5px 20px 5px; margin: 6px 10px 15px; min-height: 380px; position: relative;   text-align: center; }
+.dr-item .dr-item-content p { line-height: 24px; }
+.dr-content-wrapper .col-md-4{padding:0px;}
+
+.obt-section .main-title h1{padding: 0px 5px;}
+.obt-section .form-row{margin-bottom: 20px; margin: 0px 5px 10px;}
+.obt-section .form-row label{ font-family: 'Gotham-Medium';  margin: 0px; color: #666; }
+.obt-section .form-row select#yearlist, .obt-section .form-row select#monthlist{ border: 0px; border-bottom: 1px solid; border-radius: 0px;    padding: 0px; margin-right: 20px !important; height: 34px; font-family: 'Gotham-Book'; color: #000; margin-bottom:20px; }
+@media (max-width: 767px){
+.obt-items-box { min-height: auto; }
+}
+@media (min-width: 768px){
+    .obt-items-box{ min-height: 360px; }
+   /* .dr-item { width: 90%; margin: 2% 5% auto; position: absolute; top: 50%; -webkit-transform: translateY(-50%); -ms-transform: translateY(-50%);  transform: translateY(-50%); } */
+}
+@media (min-width: 1024px){
+    .obt-items-box{  min-height: 260px; }
+}
+.dr-item .dr-item-content p {
+    line-height: 22px;  font-size: 17px
+}
+.dr-item .dr-display-date { font-size: 13px; text-transform: uppercase; font-family: gotham-medium; margin: 15px 0px 10px; }
+.dr-item .dr-footnote {font-size: 17px; }
+.dr-item .dr-footnote p{margin-bottom:12px;}
+p.dr-display-date.obt-day:after { content: ""; background: #333; height: 1px; width: 80px; display: block; text-align: center; margin: 0px auto; margin-top: 8px; }
+@media (min-width: 768px){
+.dr-item .dr-item-content { height: 254px; position: relative;}
+.dr-item .dr-item-content p { line-height: 22px; font-size: 17px; width: 100%; position: absolute; top: 50%; -webkit-transform: translateY(-50%); -ms-transform: translateY(-50%);  transform: translateY(-50%);  margin: 0px; }
+}
+@media (min-width: 1024px){
+.dr-item .dr-item-content { height: 138px; position: relative; }
+.obt-items-box { min-height: 250px; }
+}

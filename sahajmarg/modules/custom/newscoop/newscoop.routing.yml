@@ -1,0 +1,16 @@
+
+newscoop.newscoop_migrate_controller_NewscoopMigrate:
+  path: 'newscoop-migrate'
+  defaults:
+    _controller: '\Drupal\newscoop\Controller\NewscoopMigrateController::NewscoopMigrate'
+    _title: 'Newscoop Migration'
+  requirements:
+    _permission: 'access administration pages'
+
+newscoop.h_f_n_report_controller_HFNReportMethod:
+  path: '/hfn-reports'
+  defaults:
+    _controller: '\Drupal\newscoop\Controller\HFNReportController::HFNReportMethod'
+    _title: 'HFN Reports'
+  requirements:
+    _permission: 'access administration pages'

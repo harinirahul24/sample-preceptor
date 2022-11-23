@@ -1,0 +1,22 @@
+# French translation of Twig tweak (8.x-1.5)
+# Copyright (c) 2017 by the French translation team
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Twig tweak (8.x-1.5)\n"
+"POT-Creation-Date: 2017-01-21 10:43+0000\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Language-Team: French\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n>1);\n"
+
+msgid "custom"
+msgstr "personnalisé"
+msgid "Link 1"
+msgstr "Lien 1"
+msgid "Link 2"
+msgstr "Lien 2"
+msgid "Link 3"
+msgstr "Lien 3"

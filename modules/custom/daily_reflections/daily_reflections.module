@@ -1,0 +1,16 @@
+<?php
+
+/**
+ * Implements hook_theme
+ *
+ */
+function daily_reflections_theme($existing, $type, $theme, $path) {
+  return [
+    'daily_reflections_archive' => [
+      'variables' => ['monthly_items' => NULL,'current_year' => NULL, 'current_month' => NULL, 'end_year' => NULL, 'start_month' => NULL, 'start_year' => NULL, 'end_month' => NULL, 'obt_title' => NULL],
+    ],
+    'one_beautiful_thought' => [
+    	'variables' => ['title' => NULL, 'content' => NULL, 'display_date' => NULL, 'footer_note' => NULL]
+    ],
+  ];
+}

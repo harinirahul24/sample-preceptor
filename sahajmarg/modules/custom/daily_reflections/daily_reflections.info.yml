@@ -1,0 +1,5 @@
+name: Daily Reflections
+description: Provides a Drupal block for OBT and a page for archive of OBT.
+type: module
+core_version_requirement: ^8.8 || ^9
+package: Custom
