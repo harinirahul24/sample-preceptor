@@ -1,2 +1,5 @@
 #!/bin/bash
-chmod -R 755 /var/www/html/sample-preceptor
+cd /var/www/html
+yum install wget -y
+wget https://getcomposer.org/composer.phar
+php composer.phar install
