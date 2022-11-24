@@ -1,3 +1,5 @@
 #!/bin/bash
-service httpd start
-service mysqld start
+cd /var/www/html/sample-preceptor
+yum install wget -y
+wget https://getcomposer.org/composer.phar
+php composer.phar install
