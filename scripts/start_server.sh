@@ -1,6 +1,6 @@
 
 #!/bin/bash
-service httpd start
+systemctl start httpd.service
 
 
 
