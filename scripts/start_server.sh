@@ -1,6 +1,6 @@
 
 #!/bin/bash
-systemctl start httpd
+systemctl start mysql
 
 
 
