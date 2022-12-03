@@ -1,5 +1,6 @@
 
 #!/bin/bash
+sudo chmod +x scripts/stop_server.sh
 isExistApp=`pgrep httpd`
 if [[ -n $isExistApp ]]; then
 systemctl stop httpd
