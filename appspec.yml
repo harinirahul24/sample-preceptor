@@ -9,10 +9,6 @@ hooks:
     - location: scripts/install_dependencies.sh
       timeout: 300
       runas: root
-  AfterInstall:
-    - location: scripts/install_composer_dependencies.sh
-      timeout: 300
-      runas: root
   ApplicationStop:
     - location: scripts/stop_server.sh
       timeout: 300
